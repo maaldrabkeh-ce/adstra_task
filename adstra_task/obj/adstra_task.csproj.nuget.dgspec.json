@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DX\\Desktop\\ASP.net\\adstra_task\\adstra_task\\adstra_task.csproj": {}
+    "C:\\Users\\DX\\Desktop\\newRepo\\adstra_task\\adstra_task.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DX\\Desktop\\ASP.net\\adstra_task\\adstra_task\\adstra_task.csproj": {
+    "C:\\Users\\DX\\Desktop\\newRepo\\adstra_task\\adstra_task.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DX\\Desktop\\ASP.net\\adstra_task\\adstra_task\\adstra_task.csproj",
+        "projectUniqueName": "C:\\Users\\DX\\Desktop\\newRepo\\adstra_task\\adstra_task.csproj",
         "projectName": "adstra_task",
-        "projectPath": "C:\\Users\\DX\\Desktop\\ASP.net\\adstra_task\\adstra_task\\adstra_task.csproj",
+        "projectPath": "C:\\Users\\DX\\Desktop\\newRepo\\adstra_task\\adstra_task.csproj",
         "packagesPath": "C:\\Users\\DX\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DX\\Desktop\\ASP.net\\adstra_task\\adstra_task\\obj\\",
+        "outputPath": "C:\\Users\\DX\\Desktop\\newRepo\\adstra_task\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -44,6 +44,22 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -3,5 +3,6 @@
 ################################################################################
 
 /.vs
-/adstra_task/bin/Debug/net7.0
+/adstra_task/bin
 /.gitignore
+/adstra_task/obj
