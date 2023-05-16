@@ -58,6 +58,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Octopus.Client" Version="14.3.611" />
   </ItemGroup>
 
 </Project>

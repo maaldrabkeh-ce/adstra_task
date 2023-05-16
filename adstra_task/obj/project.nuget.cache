@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YdK59dcs8Zpa09j4tyOzPDSwVwuXOTC63q+ETLjkWYjslL24IfCE3pPbAjI1VHIIp+MkuA/IosJYJ5Z3uviSrA==",
+  "dgSpecHash": "rAQL4Toi6plyT1tb9rkM6bySujyoFeK/kdLt8sZ4tYcT2FG2E4qJaLmQ15UDxci4Zxsjr9EUjronVtfeesYwvg==",
   "success": true,
   "projectFilePath": "C:\\Users\\DX\\Desktop\\newRepo\\adstra_task\\adstra_task.csproj",
   "expectedPackageFiles": [
@@ -48,8 +48,10 @@
     "C:\\Users\\DX\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\DX\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\DX\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\DX\\.nuget\\packages\\octopus.client\\14.3.611\\octopus.client.14.3.611.nupkg.sha512",
     "C:\\Users\\DX\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\DX\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
+    "C:\\Users\\DX\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
     "C:\\Users\\DX\\.nuget\\packages\\system.configuration.configurationmanager\\5.0.0\\system.configuration.configurationmanager.5.0.0.nupkg.sha512",
     "C:\\Users\\DX\\.nuget\\packages\\system.diagnostics.diagnosticsource\\5.0.0\\system.diagnostics.diagnosticsource.5.0.0.nupkg.sha512",
     "C:\\Users\\DX\\.nuget\\packages\\system.drawing.common\\5.0.0\\system.drawing.common.5.0.0.nupkg.sha512",

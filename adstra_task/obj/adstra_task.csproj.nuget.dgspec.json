@@ -66,6 +66,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.5, )"
+            },
+            "Octopus.Client": {
+              "target": "Package",
+              "version": "[14.3.611, )"
             }
           },
           "imports": [
