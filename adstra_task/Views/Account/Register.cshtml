@@ -1,0 +1,60 @@
+﻿@model WebAdmin.ViewModels.UserViewModel
+@{
+    Layout = "_LoginLayout";
+}
+<form asp-action="Register" asp-controller="Account" enctype="multipart/form-data">
+
+
+    <div class="col-md-12 mb-3">
+
+        <h2>Sign Up</h2>
+        <p>Fill your data to signup</p>
+
+    </div>
+    <div class="col-md-12">
+        <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input asp-for="Email" class="form-control">
+        </div>
+    </div>
+    <div class="col-md-12">
+        <div class="mb-3">
+            <label class="form-label">Username</label>
+            <input asp-for="UserName" class="form-control">
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="mb-4">
+            <label class="form-label">Password</label>
+            <input asp-for="Password" class="form-control">
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="mb-4">
+            <label class="form-label">Password Confirmation </label>
+            <input asp-for="ConfirmPassword" class="form-control">
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="mb-4">
+            <label class="form-label">Image </label>
+            <input asp-for="File" class="form-control">
+        </div>
+    </div>
+
+
+    <div class="col-12">
+        <div class="mb-4">
+            <button type="submit" class="btn btn-secondary w-100">SIGN IN</button>
+        </div>
+    </div>
+
+</form>
+
+
+<div class="col-12">
+    <div class="text-center">
+        <p class="mb-0">Dont't have an account ? <a asp-action="Register" asp-controller="Account" class="text-warning">Create An Account!!</a></p>
+    </div>
+</div>
+
