@@ -1,0 +1,32 @@
+﻿@model adstra_task.Models.User
+
+@{
+    ViewData["Title"] = "Profile";
+}
+<link href="~/src/assets/css/light/users/user-profile.css" rel="stylesheet" />
+<link href="~/src/assets/css/dark/users/user-profile.css" rel="stylesheet" />
+<div class="col-xl-5 col-lg-12 col-md-12 col-sm-12 layout-top-spacing">
+    <div class="user-profile">
+        <div class="widget-content widget-content-area">
+            <div class="d-flex justify-content-between">
+                <h3 class="">Profile</h3>
+            </div>
+            <div class="text-center user-info">
+                <img style="width:150px;height:150px;" src="~/ImageUsers/@Model.UserImage" alt="avatar">
+                <p class="">@Model.UserName</p>
+            </div>
+            <div class="user-info-list">
+
+                <div class="">
+                    <ul class="contacts-block list-unstyled">
+
+                        <li class="contacts-block__item">
+                            <a href="mailto:@Model.Email"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail me-3"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>@Model.Email</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
